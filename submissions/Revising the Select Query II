@@ -1,0 +1,11 @@
+/*-----------------------------------------------------------------------
+
+Problem Title: Revising the Select Query II
+Problem Link: https://www.hackerrank.com/challenges/revising-the-select-query-2
+Author: abhijeet_rawat
+Language : MySQL
+
+-----------------------------------------------------------------------*/
+
+
+select NAME from city where population>120000 and countrycode="USA";
