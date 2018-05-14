@@ -9,7 +9,8 @@ Language : Python 3
 
 
 n = int(input())
+str1=""
 for i in range(1,n+1,1):
-    print(i,end="")
-       
+    str1+= str(i)
+print(str1)    
             
