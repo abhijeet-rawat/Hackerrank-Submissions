@@ -8,3 +8,7 @@ Language : MySQL
 -----------------------------------------------------------------------*/
 
 
+/*
+Enter your query here.
+*/
+select distinct CITY,STATE from STATION  
