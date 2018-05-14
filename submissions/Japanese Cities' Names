@@ -1,0 +1,11 @@
+/*-----------------------------------------------------------------------
+
+Problem Title: Japanese Cities' Names
+Problem Link: https://www.hackerrank.com/challenges/japanese-cities-name
+Author: abhijeet_rawat
+Language : MySQL
+
+-----------------------------------------------------------------------*/
+
+
+select name from  city where countrycode="JPN";
