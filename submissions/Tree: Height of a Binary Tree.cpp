@@ -16,10 +16,12 @@ class Node {
 };
 
 */
-int height(Node* root)
+int getHeight(Node* root)
 {
-    if (root == NULL) {
+    int hleft, hright;
+    if (root == NULL)
         return -1;
-    }
-    return max(1 + height(root->left), 1 + height(root->right));
+    hleft = getHeight(root->left) + 1;
+    hright = getHeight(root->right) + 1;
+    return max(hleft, hright);
 }
