@@ -20,11 +20,8 @@ Language : C++
 */
 void ReversePrint(Node* head)
 {
-    if (head == NULL) {
+    if (head == NULL)
         return;
-    }
-    else {
-        ReversePrint(head->next);
-        cout << head->data << endl;
-    }
+    ReversePrint(head->next);
+    cout << head->data << endl;
 }
