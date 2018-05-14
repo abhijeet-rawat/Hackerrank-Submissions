@@ -20,14 +20,15 @@ Language : C++
 */
 Node* Reverse(Node* head)
 {
-    struct Node *prev = NULL, *ptr = head, *current = head, *newhead = NULL;
-
-    while (ptr != NULL) {
-        ptr = ptr->next;
+    struct Node *current, *prev, *nex;
+    prev = NULL;
+    current = head;
+    while (current != NULL) {
+        nex = current->next;
         current->next = prev;
         prev = current;
-        current = ptr;
+        current = nex;
     }
-    newhead = prev;
-    return newhead;
+    head = prev;
+    return prev;
 }
