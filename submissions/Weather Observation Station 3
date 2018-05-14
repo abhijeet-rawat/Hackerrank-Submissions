@@ -1,0 +1,12 @@
+/*-----------------------------------------------------------------------
+
+Problem Title: Weather Observation Station 3
+Problem Link: https://www.hackerrank.com/challenges/weather-observation-station-3
+Author: abhijeet_rawat
+Language : MySQL
+
+-----------------------------------------------------------------------*/
+
+
+select distinct(city) from station where id%2=0;
+
