@@ -1,0 +1,11 @@
+/*-----------------------------------------------------------------------
+
+Problem Title: Weather Observation Station 8
+Problem Link: https://www.hackerrank.com/challenges/weather-observation-station-8
+Author: abhijeet_rawat
+Language : MySQL
+
+-----------------------------------------------------------------------*/
+
+
+select distinct(city) from station where city like 'A%A' or city like 'A%E' or city like 'A%I' or city like 'A%O' or city like 'A%U' or city like 'E%A' or city like 'E%E' or city like 'E%I' or city like 'E%O' or city like 'E%U' or city like 'I%A' or city like 'I%E' or city like 'I%I' or city like 'I%O' or city like 'I%U' or city like 'O%A' or city like 'O%E' or city like 'O%I' or city like 'O%O' or city like 'O%U' or city like 'U%A' or city like 'U%E' or city like 'U%I' or city like 'U%O' or city like 'U%U';
